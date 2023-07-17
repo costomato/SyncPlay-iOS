@@ -8,17 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		3205496B2A63BAC70058DCA6 /* SyncPlayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3205496A2A63BAC70058DCA6 /* SyncPlayApp.swift */; };
-		3205496D2A63BAC70058DCA6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3205496C2A63BAC70058DCA6 /* ContentView.swift */; };
+		3205496D2A63BAC70058DCA6 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3205496C2A63BAC70058DCA6 /* HomeView.swift */; };
 		3205496F2A63BACA0058DCA6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3205496E2A63BACA0058DCA6 /* Assets.xcassets */; };
 		320549722A63BACA0058DCA6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 320549712A63BACA0058DCA6 /* Preview Assets.xcassets */; };
+		329E20EE2A65AE3000CDC51C /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 329E20ED2A65AE3000CDC51C /* .gitignore */; };
+		329E20F02A65AE8500CDC51C /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 329E20EF2A65AE8500CDC51C /* README.md */; };
+		32DD936E2A645284007A8990 /* VideoThumbnailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32DD936D2A645284007A8990 /* VideoThumbnailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		320549672A63BAC70058DCA6 /* SyncPlay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyncPlay.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3205496A2A63BAC70058DCA6 /* SyncPlayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SyncPlayApp.swift; sourceTree = "<group>"; };
-		3205496C2A63BAC70058DCA6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3205496C2A63BAC70058DCA6 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		3205496E2A63BACA0058DCA6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		320549712A63BACA0058DCA6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		329E20ED2A65AE3000CDC51C /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		329E20EF2A65AE8500CDC51C /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		32C1510B2A65584800967FEA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		32DD936D2A645284007A8990 /* VideoThumbnailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoThumbnailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +42,9 @@
 		3205495E2A63BAC70058DCA6 = {
 			isa = PBXGroup;
 			children = (
+				329E20F12A65AF3700CDC51C /* misc */,
+				329E20EF2A65AE8500CDC51C /* README.md */,
+				329E20ED2A65AE3000CDC51C /* .gitignore */,
 				320549692A63BAC70058DCA6 /* SyncPlay */,
 				320549682A63BAC70058DCA6 /* Products */,
 			);
@@ -51,8 +61,9 @@
 		320549692A63BAC70058DCA6 /* SyncPlay */ = {
 			isa = PBXGroup;
 			children = (
+				32C1510B2A65584800967FEA /* Info.plist */,
+				320549782A63BAF10058DCA6 /* View */,
 				3205496A2A63BAC70058DCA6 /* SyncPlayApp.swift */,
-				3205496C2A63BAC70058DCA6 /* ContentView.swift */,
 				3205496E2A63BACA0058DCA6 /* Assets.xcassets */,
 				320549702A63BACA0058DCA6 /* Preview Content */,
 			);
@@ -65,6 +76,30 @@
 				320549712A63BACA0058DCA6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		320549782A63BAF10058DCA6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				32DD936C2A64525E007A8990 /* File */,
+				3205496C2A63BAC70058DCA6 /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		329E20F12A65AF3700CDC51C /* misc */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = misc;
+			sourceTree = "<group>";
+		};
+		32DD936C2A64525E007A8990 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				32DD936D2A645284007A8990 /* VideoThumbnailView.swift */,
+			);
+			path = File;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				320549722A63BACA0058DCA6 /* Preview Assets.xcassets in Resources */,
+				329E20EE2A65AE3000CDC51C /* .gitignore in Resources */,
+				329E20F02A65AE8500CDC51C /* README.md in Resources */,
 				3205496F2A63BACA0058DCA6 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +174,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3205496D2A63BAC70058DCA6 /* ContentView.swift in Sources */,
+				3205496D2A63BAC70058DCA6 /* HomeView.swift in Sources */,
+				32DD936E2A645284007A8990 /* VideoThumbnailView.swift in Sources */,
 				3205496B2A63BAC70058DCA6 /* SyncPlayApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +308,8 @@
 				DEVELOPMENT_TEAM = PPCD8Q5SP9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SyncPlay/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "SyncPlay uses videos only";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +339,8 @@
 				DEVELOPMENT_TEAM = PPCD8Q5SP9;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SyncPlay/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "SyncPlay uses videos only";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
