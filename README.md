@@ -1,12 +1,11 @@
 # Syncplay-iOS
 
-<img src="https://github.com/costomato/SyncPlay/blob/main/app/src/debug/ic_launcher-playstore.png" width="150px">
+<img src="https://github.com/costomato/SyncPlay/blob/main/app/src/debug/ic_launcher-playstore.png" width="110px">
 
 ## About
 Syncplay is an app that allows friends to watch videos or movies together in real-time. With Syncplay, everyone can synchronize the video playback without worrying about connecting over a video call and one person having to stream the entire movie. This improves the overall viewing experience for everyone.
 
-<img src="https://github.com/costomato/SyncPlay-iOS/blob/main/SyncPlay/docs/ss1.png" width="600px">
-<img src="https://github.com/costomato/SyncPlay-iOS/blob/main/SyncPlay/docs/ss2.png" width="600px">
+<img src="https://github.com/costomato/SyncPlay-iOS/blob/main/misc/ss1.png" width="200px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="https://github.com/costomato/SyncPlay-iOS/blob/main/misc/ss2.png" width="200px">
 
 ## Features
 - Create a room and invite friends to join
